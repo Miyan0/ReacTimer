@@ -8,6 +8,10 @@ export default class Controls extends Component {
     }
   }
 
+  componentWillReceiveProps(newProps) {
+    console.log('componentWillReceiveProps: ', newProps.countdownStatus);
+  }
+
   render() {
     let { countdownStatus } = this.props;
 
