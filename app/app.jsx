@@ -3,7 +3,7 @@ var ReactDOM = require('react-dom');
 var { Route, Router, IndexRoute, hashHistory } = require('react-router');
 var Main = require('Main');
 var {Timer} = require('Timer');
-var {Countdown} = require('Countdown');
+import Countdown from 'Countdown';
 
 // load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
