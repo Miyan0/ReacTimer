@@ -6,6 +6,8 @@ module.exports = {
     'script!foundation-sites/dist/foundation.min.js',
     './app/app.jsx'
   ],
+
+
   externals: {
     jquery: 'jQuery'
   },

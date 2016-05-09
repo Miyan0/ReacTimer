@@ -9,7 +9,7 @@ import Countdown from 'Countdown';
 require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
 // App css
-require('style!css!sass!applicationStyle');
+require('style!css?sourceMap!sass?sourceMap!applicationStyle');
 
 
 
