@@ -7,7 +7,9 @@ import Timer from 'Timer';
 import Countdown from 'Countdown';
 
 // load foundation
-require('style!css!foundation-sites/dist/foundation.min.css');
+// require('style!css!foundation-sites/dist/foundation.min.css');
+// we use sass now, see sassLoader in webpack config.
+
 $(document).foundation();
 // App css
 require('style!css?sourceMap!sass?sourceMap!applicationStyle');
